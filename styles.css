@@ -43,6 +43,9 @@ header h2 {
     overflow: hidden;
     margin: 0 auto;
 }
+.navbar-brand {
+    font-family: "Roboto";
+}
 @keyframes border {
     
     0% {border: none;}

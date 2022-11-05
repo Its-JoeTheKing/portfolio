@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Norwester';
+    src: url('/fonts/norwester.otf');
+}
 * {
     font-family: 'Roboto';
 }
@@ -56,8 +60,10 @@ header h2 {
     
 }
 .more {
+    position: absolute;
+    z-index: 1001;
     margin-top: 30px;
-    margin-left: 30%;
+    margin-left: 15%;
     border: 2px solid #aa00a2;
     color: white;
     background: #aa00a2;
@@ -174,4 +180,57 @@ section {
     height: 100%;
     width: 100%;
     z-index: 1000;
+}
+.projects {
+    width: 80%;
+    margin-left: 10%;
+    height: 100%;
+    margin-top: 50px;
+    gap: 5%;
+}
+.elements {
+    width: 30%;
+    border-radius: 10px;
+    border: 2px solid #aa00a2;
+    overflow: hidden;
+    box-shadow: 10px 10px 15px 1px grey;
+}
+.p-img {
+    width: 100%;
+    height: 125%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.p-links:hover .p-img{
+    overflow: hidden;
+    transition: 2s;
+    transform: scale(1.2);
+    filter: grayscale(70%);
+}
+.p-links:hover .text-image {
+    display: block;
+}
+@keyframes wid1 {
+    0% {width: 0%;}
+    100% {width: 90%;}
+}
+@keyframes wid2 {
+    0% {width: 0%;}
+    100% {width: 80%;}
+}
+@keyframes wid3 {
+    0% {width: 0%;}
+    100% {width: 70%;}
+}
+@keyframes wid4 {
+    0% {width: 0%;}
+    100% {width: 60%;}
+}
+.text-image {
+    margin-top: 20%;
+    font-size: 22px;
+    color: rgb(0, 119, 255);
+    z-index: 2000;
+    font-family: 'Norwester';
+    display: none;
 }

@@ -16,30 +16,29 @@
 <header class="navbar fixed-top col-12">
     <h1 class="navbar-brand" style="font-family: 'Norwester'; margin-left: 50px; font-size: 30px;">Whoami</h1>
     <ul class="col-7 text-center my-2 float-end">
-        <li class="d-inline-block mx-5">Home</li>
-        <li class="d-inline-block mx-5">About Me</li>
-        <li class="d-inline-block mx-5">Links</li>
-        <li class="d-inline-block mx-5">Fcuk</li>
+        <a href="#sec2"><li class="d-inline-block mx-5">About Me</li></a>
+        <a href="#sec3"><li class="d-inline-block mx-5">Projects</li></a>
+        <a href="#sec4"><li class="d-inline-block mx-5">Links</li></a>
     </ul>
 </header>
 <body>
     <div class="particles-js" id="particles-js"></div>
     <div class="cont">
-    <section class="section-1 position-absolute d-flex w-100 h-100 col-2">
-        <div class="section-1-1 col-1 h-100 w-50">
+    <section class="section-1 position-absolute w-100 h-100 col-2">
+        <div class="section-1-2 col-1">
+            <img class="imga" src="https://i.pinimg.com/originals/d6/3b/23/d63b2336f3e965ea88335a266f2e7d30.jpg" />
+        </div>
+        <div class="section-1-1 col-1">
             <div class="about">
                 <h1><span style="color: rgb(223, 23, 9);">Hi,</span> I'm John Doe</h1>
             </div>
             <p class="under-title">- Full Stack Developer (MERN) -</p>
             <a href="#sec2"><button class="more">Read More</button></a>
         </div>
-        <div class="section-1-2 col-1 h-100 w-50">
-            <img class="imga" src="https://i.pinimg.com/originals/d6/3b/23/d63b2336f3e965ea88335a266f2e7d30.jpg" />
-        </div>
     </section>
-    <section id="sec2" class="section-2 position-absolute d-flex w-100 h-100 col-2">
+    <section id="sec2" class="section-2 position-absolute w-100 h-100 col-2">
         <div class="section-2-1">
-            <div class="paragraph fade-in" data-mdb-animation-start="onHover">
+            <div class="paragraph">
                 <h2>About Me</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum quas veritatis dolore nisi commodi debitis itaque similique quasi laudantium quis nam perferendis accusamus quo, cumque qui et eos deleniti tempore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit rem cumque, illo dolores excepturi eveniet vero aliquid natus, explicabo quibusdam ratione illum alias, quod earum a ea sapiente? Magnam, est?</p>
             </div>
@@ -69,35 +68,50 @@
             </div>
         </div>
     </section>
-    <section class="section3">
+    <section id="sec3" class="section3">
         <h1>Projects</h1>
-        <div class="projects d-flex" style="height: 30%;">
-            <div class="elements col-3 card"><a class="p-links text-decoration-none" href="#">
+        <div class="projects" style="height: 30%;">
+            <div class="elements card"><a class="p-links text-decoration-none" href="https://unichate.herokuapp.com/" target="_blank">
                 <img src="imgs/P1.PNG" class="p-img card-img-top" alt="" />
                 <p class="card-img-overlay text-image">Unichat</p>
             </a></div>
-            <div class="elements col-3 card"><a class="p-links text-decoration-none" href="#">
+            <div class="elements card"><a class="p-links text-decoration-none" href="http://uniueshop.com/" target="_blank">
                 <img src="imgs/P2.PNG" class="p-img card-img-top" alt="" />
                 <p class="card-img-overlay text-image">UniShop</p>
             </a></div>
-            <div class="elements col-3 card"><a class="p-links text-decoration-none" href="#">
+            <div class="elements card"><a class="p-links text-decoration-none" href="https://codepen.io/Joesan22/full/WNyxgwK" target="_blank">
                 <img src="imgs/P3.PNG" class="p-img card-img-top" alt="" />
                 <p class="card-img-overlay text-image">Full Shop Login</p>
             </a></div>
-        </div>
-        <div class="projects d-flex" style="height: 30%;">
-            <div class="elements col-3 card"><a class="p-links text-decoration-none" href="#">
+            <div class="elements card"><a class="p-links text-decoration-none" href="https://ytloaders.herokuapp.com/" target="_blank">
                 <img src="imgs/P4.PNG" class="p-img card-img-top" alt="" />
                 <p class="card-img-overlay text-image">Yt Dowlnoader</p>
             </a></div>
-            <div class="elements col-3 card"><a class="p-links text-decoration-none" href="#">
+            <div class="elements card"><a class="p-links text-decoration-none" href="https://trapform.vercel.app/" target="_blank">
                 <img src="imgs/P5.PNG" class="p-img card-img-top" alt="" />
                 <p class="card-img-overlay text-image">Trap Form</p>
             </a></div>
-            <div class="elements col-3 card"><a class="p-links text-decoration-none" href="#">
+            <div class="elements card"><a class="p-links text-decoration-none" href="https://lazy-quiz.vercel.app/" target="_blank">
                 <img src="imgs/P6.PNG" class="p-img card-img-top" alt="" />
                 <p class="card-img-overlay text-image">Lazy Quiz Programming</p>
             </a></div>
+        </div>
+    </section>
+    <section class="section4" id="sec4">
+        <h1>You Can Found Me Here</h1>
+        <div class="d-flex linkss">
+        <a href="#" class="link" style="background: linear-gradient(to right bottom, black,rgb(80, 77, 77)); color: white;">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="#" class="link" style="background: linear-gradient(to right bottom, rgb(19, 147, 221),rgb(0, 47, 255)); color: white;">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="#" class="link" style="background: linear-gradient(to right bottom, rgb(255, 38, 0),rgb(255, 0, 64)); color: white;">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="link" style="background: linear-gradient(to right bottom, rgb(255, 0, 43), rgb(240, 60, 69)); color: white;">
+            <i class="fas fa-mail-bulk" style="font-size: 40px;"></i>
+        </a>
         </div>
     </section>
     </div>

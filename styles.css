@@ -79,12 +79,12 @@ header h2 {
 }
 .imga {
     display: absolute;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     background: #000;
     justify-content: center;
-    margin-top: calc(50% - 150px );
-    margin-left: calc(50% - 150px);
+    margin-top: calc(50% - 200px );
+    margin-left: calc(50% - 200px);
     border-radius: 50%;
     z-index: 1000;
 }
@@ -93,16 +93,26 @@ header h2 {
     text-align: left;
     justify-content: center;
     margin-top: 10px;
-    color: rgb(43, 39, 39);   
+    color: rgb(43, 39, 39);
 }
 .section-1 {
     background: white;
+    display: flex;
 }
 .section-1-2 {
+    height: 100%;
+    width: 50%;
+    z-index: 1000;
+}
+.section-1-1 {
+    height: 100%;
+    width: 50%;
     z-index: 1000;
 }
 .section-2 {
     margin-top: 90vh;
+    width: 100%;
+    display: flex;
 }
 section {
     height: 100vh;
@@ -166,14 +176,32 @@ section {
     position: absolute;
     width: 100%;
     background: white;
-    margin-top: 180vh;
+    margin-top: 200vh;
     justify-content: center;
     text-align: center;
 }
 .section-3 {
     justify-content: center;
     text-align: center;
-
+}
+.section4 {
+    position: absolute;
+    width: 100%;
+    margin-top: 300vh;
+    height: 50%;
+    text-align: center;
+    align-items: center;
+}
+.linkss {
+    gap: 100px;
+    justify-content: center;
+    text-align: center;
+}
+.links {
+    display: inline-block;
+}
+.links:hover {
+    transform: rotate(45deg);
 }
 .particles-js {
     position: absolute;
@@ -182,6 +210,8 @@ section {
     z-index: 1000;
 }
 .projects {
+    display: flex;
+    flex-wrap: wrap;
     width: 80%;
     margin-left: 10%;
     height: 100%;
@@ -194,6 +224,7 @@ section {
     border: 2px solid #aa00a2;
     overflow: hidden;
     box-shadow: 10px 10px 15px 1px grey;
+    margin-top: 20px;
 }
 .p-img {
     width: 100%;
@@ -227,10 +258,107 @@ section {
     100% {width: 60%;}
 }
 .text-image {
-    margin-top: 20%;
+    margin-top: 15%;
     font-size: 22px;
     color: rgb(0, 119, 255);
     z-index: 2000;
     font-family: 'Norwester';
     display: none;
+}
+.link {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 10%;
+    color: white;
+    font-size: 55px;
+}
+.link i {
+    margin-top: 5px;
+}
+@media screen and (max-width: 700px) {
+    ul {
+        display: none;
+    }
+    .navbar-brand {
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .section-1 {
+        display: block;
+    }
+    .section-1-2 {
+        margin-top: 20px;
+        position: relative;
+        width: 100%;
+        height: 80%;
+        align-items: center;
+        text-align: center;
+    }
+    .imga {
+        margin-top: 50px;
+        margin-left: 0px;
+        align-self: center;
+        height: 250px;
+        width: 250px;
+    }
+    .section-1-1 {
+        width: 100%;
+        margin-top: -100%;
+    }
+    .more {
+        width: 60%;
+        margin-left: 20%;
+        height: 50px;
+        margin-top: 5px;
+    }
+    .about h1 {
+        font-size: 30px;
+    }
+    .section-2 {
+        display: block;
+    }
+    .section-2-1 {
+        width: 100%;
+    }
+    .paragraph p {
+        margin-right: 10%;
+        width: 80%;
+        font-size: 14px;
+        justify-content: center;
+    }
+    .paragraph h2 {
+        margin-left: 0;
+        text-align: center;
+    }
+    .section-2-2 {
+        width: 100%;
+    }
+    .analyses {
+        margin-left: 10%;
+        width: 80%;
+    }
+    .bar {
+        width: 100%;
+    }
+    .projects {
+        display: block;
+    }
+    .elements {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .projects {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .section4 {
+        margin-top: 360vh;
+    }
+    .linkss {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
 }

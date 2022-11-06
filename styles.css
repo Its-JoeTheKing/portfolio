@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Norwester';
-    src: url('/portfolio/fonts/norwester.otf');
+    src: url('fonts/norwester.otf');
 }
 * {
     font-family: 'Roboto';

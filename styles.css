@@ -320,6 +320,9 @@ section {
     .section-2 {
         display: block;
     }
+    .section3 {
+        margin-top: 450%;
+    }
     .section-2-1 {
         width: 100%;
     }
@@ -355,7 +358,7 @@ section {
         margin-left: 5%;
     }
     .section4 {
-        margin-top: 360vh;
+        margin-top: 800%;
     }
     .linkss {
         flex-wrap: wrap;

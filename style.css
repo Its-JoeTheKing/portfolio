@@ -496,7 +496,7 @@ header {
     margin-bottom: 0;
 }
 .s2-322 {
-    background: url("/imgs/cards/pentesting.jpg") no-repeat;
+    background: url("./imgs/cards/pentesting.jpg") no-repeat;
     background-size: cover !important;
 }
 .s2-321:hover .flip {

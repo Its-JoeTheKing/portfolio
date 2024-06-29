@@ -4,6 +4,7 @@
     height: 100%;
     margin: 0;
     background: hsla(22, 100%, 90%, 0.2);
+    font-family: 'roboto';
 }
 .header {
     width: 80%;
@@ -20,6 +21,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.arrowBtn
+{
+    position: absolute;
+    top: 30px;
+    margin: 10px;
+}
+.arrowBtn:hover {
+    cursor: pointer;
+    transition: 2s;
+    transform: rotate(360deg);
 }
 .circ {
     height: 20px;
@@ -54,7 +66,7 @@
 .s1 p {
     text-align: center;
     color: grey;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
 }
 .s2 {
@@ -207,8 +219,8 @@
 }
 .meusem {
     display: flex;
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
     box-shadow: 0px 0px 30px -5px rgba(0,0,0,0.75);
     position: relative;
     background: white;

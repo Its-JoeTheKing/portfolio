@@ -15,10 +15,7 @@ export default function Home() {
         <button className={styles.consult}>Free Consultation</button>
     </header>
     <section className={styles.s1}>
-        <h1>Web Development</h1>
-        <p>
-            In today's world, numerous companies, individuals, and businesses rely on websites for their stores, blogs, and even their companies. This brings forth the crucial role of web developers in creating or enhancing websites that are professional, secure, fast, optimized, and responsive across all devices.
-        </p>
+        <h1>Full Stack Web Developer</h1>
     </section>
     <section className={styles.s2}>
         <motion.div initial={{scale: 0.8}} animate={{scale: 1}} className={styles['s2-1']}>
@@ -30,7 +27,6 @@ export default function Home() {
                 </p>
             </div>
         </motion.div>
-
         <div className={styles['s2-2']}>
             <div className={styles['s2-21']}>
                 <motion.div initial={{scale: 0.8}} animate={{scale: 1}} className={styles['s2-212']}>
@@ -82,17 +78,12 @@ export default function Home() {
             </div>
         </div>
         <div className={styles.desc}>
-            <h1>I will be very glad to work on your next project</h1>
+            <h1>RESUME</h1>
             <p>
                 Hello! I'm Errfig Aymen, an 18-year-old aspiring <b>Junior Full Stack Web Developer</b> and <b>Intermediate in Pentesting</b>. I'm passionate about expanding my knowledge to create secure, responsive, and optimized websites and applications. Over the past few years, I have gained proficiency in <b>HTML, CSS, JavaScript, PHP, Python, and MySQL</b>. Additionally, I have experience with frameworks such as <b>React and Node.js (MERN Stack)</b>. Furthermore, I have little experience in building <b>mobile apps</b> with <b>react native</b>.
             </p>
             <p>
                 I'm Interested in: Game Development, Artificial Intelligence
-            </p>
-            <p>
-                <i>
-                    I feel the road is still long but I will never give up
-                </i>
             </p>
             <button>Free Consultation</button>
         </div>
